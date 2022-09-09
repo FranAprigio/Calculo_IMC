@@ -1,0 +1,33 @@
+.container-app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-input{
+    background-color: rgb(96, 58, 202);
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+input{
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 5vw;
+    height: 3vh;
+}
